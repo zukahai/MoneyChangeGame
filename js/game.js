@@ -124,7 +124,7 @@ class game {
             this.newGame();
         } else {
             level = 1;
-            window.alert("Lost");
+            window.alert("Lost: Level" + level);
         }
     }
 
